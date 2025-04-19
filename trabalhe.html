@@ -1,0 +1,86 @@
+<html>
+	</head>
+		
+	<link rel="stylesheet" href="estiloso.css">
+	</head>
+	
+	<body>	
+		
+		<header class="header">
+			<section>
+				<a href="./index.html">
+					<img src="./LOGO.png">
+				</a>
+				<nav>
+					<a href="./index.html"><b>Home</b></a>
+					<a href="./sobre.html"><b>Sobre</b></a>
+					<a href="./avaliacoes.html"><b>Avaliações</b></a>
+					<a href="#" onclick="mostrarModal()"><b>Endereço</b></a>
+					<a href="./trabalhe.html"><b>Trabalhe Conosco</b></a>
+				</nav>
+				
+				<div class="page">
+					
+				<div>
+				<div class="box">
+					<input type="text" placeholder="Pesquisar" autocomplete
+					<a href="#" class"botau">
+					<i class="fas fa-search"></i>
+					</a>
+					</div>
+					</div>
+					</div>
+					
+			</section>
+		
+		
+		</header>
+		
+		
+		<div>
+		<section Class="avaliacoes">
+		<h2><span>Trabalhe</span></h2>
+		<h2>  Conosco </h2>
+		</div>
+		
+		<section>
+		<div class="emprego">
+		<div class="foto">			
+			<img src="./Garoto propaganda.png">
+		</div>
+		
+		
+		
+		<div class="curriculo">
+	<h1>Envie seu currículo</h1>
+    <form action="/submit-curriculo" method="post" enctype="multipart/form-data">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="curriculo">Currículo:</label>
+        <input type="file" id="curriculo" name="curriculo" accept=".pdf,.doc,.docx" required><br><br>
+
+        <input type="submit" value="Enviar Currículo">
+    </form>
+
+		</div>
+		
+		</section>
+		</section>
+
+		
+		
+		
+		<div class="modal">
+		<h3><Span>Nosso</Span> Endereço</h3>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3838.726424825227!2d-47.87718562486941!3d-15.818372884825392!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a24d3aa238f13%3A0xa96ee40b6f739aa0!2sShopping%20Pier%2021!5e0!3m2!1spt-BR!2sbr!4v1744038906979!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	</div>
+			
+	<div class="mascara" onclick="esconderModal()"></div>
+	
+	<script src="./script.js"></script>
+	</body>
+</html>

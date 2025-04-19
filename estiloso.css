@@ -1,0 +1,419 @@
+* {
+	margin: 0 ;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: none;
+}
+
+section {
+	padding: 7rem 1rem;
+	margin: 0 auto;
+	max-width: 1200px
+}
+
+
+body {
+
+	margin: 1;
+	padding-top: 60px;
+	background-color: lightblue;
+}
+
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 3;
+	background-color: #9370DB;
+	border-bottom: 0.2rem solid rgba(255,255, 255, 0.3);
+	width: 100vw;
+	
+}
+
+.header section {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	gap: 50px;
+	padding: 1.0rem 1;
+	position: relative;
+    background-color: #9370DB;
+}
+
+.header section a img {
+	height: 3rem
+	
+}
+
+.nav a {
+	background-color: #9370DB;
+}
+
+.header section nav a {
+	margin: 0 2.5rem;
+	font-size: 1.2rem;
+	color: black;
+	transition: 0.4s linear;
+	background-color: #9370DB;
+}
+.header section nav a:hover {
+	color: black;
+	border-bottom: 0.1rem solid black;
+	padding-bottom: 0.2rem;
+	background-color: #9370DB;
+	
+}
+
+.caixa-celular {
+	text-align: center;
+	color: black;
+	text-transform: uppercase;
+	padding-bottom: 1,0rem;
+	font-size: 2rem;
+	
+	
+}
+.caixa-celular h2 span {
+	color: purple;
+	text-transform: uppercase;
+	margin-bottom: -100;
+	padding: -50;
+	margin: -50;
+	
+}
+
+
+.sobre-samsung h2{
+	text-align: center;
+	text-transform: uppercase;
+	padding-bottom: 2,0rem;
+	margin: 0 auto;
+	font-size: 2.3rem;
+	padding: 0;
+	margin: -120;
+	background-color: #9370DB;
+	border-radius: 10px;	
+}
+
+.sobre-celular {
+    display: block;
+    justify-content: space-around;
+	
+	
+}
+
+.img-celular img{
+    width: 140px; 
+	height: auto;
+	flex-direction row;
+	margin-top: 20px;
+	margin-bottom: 15px;
+	box-shadow: 6px 6px 10px;
+	
+	
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin-top: 20px;
+	transition: transform 0.3s;
+	
+	
+}
+
+.img-celular {
+	border: 1px solid #ddd;
+	padding: 16px;
+	margin: 16px;
+	text-align: center;
+	width: 300px;
+	position: relative;
+	z-index; 1;
+	background-color: #9370DB;
+	border-radius: 10px;
+	cursor: pointer;
+	margin-bottom: 20px;
+	box-shadow: 6px 6px 10px;
+	margin-bottom: 15px;
+
+}
+
+.img-celular:hover  {
+	transform: scale(1.1); 
+} 
+        
+.img-celular h3 {
+	font-size: 18px;
+	margin: 10px 0;
+	margin-top: 20px;
+	
+}
+ 
+.img-celular p {
+	margin: 5px 0; 
+}
+        
+.img-celular .price {
+	font-size: 20px;
+	color: #ff9900;
+}
+
+.select-icon {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	cursor: pointer;
+}
+
+.selected {
+	border: 2px solid #00f;
+}
+
+.caixa-sobre h2 {
+	text-align: center;
+	color: black;
+	text-transform: uppercase;
+	padding-bottom: 1,0rem;
+	font-size: 3rem;
+	margin-bottom: -10;
+}
+.caixa-sobre h2 span {
+	color: purple;
+	
+}	
+
+.caixa-principal {
+	min-height: 100vh;
+	display: inline;
+	align-items: center;
+	
+}
+
+.caixa-principal div content{
+	max-width: 45rem;
+	padding: 15rem 	
+	
+}
+
+.caixa-principal div h3 {
+	font-size: 1.3rem;
+	color: purple;
+	line-height: 1.5;
+	text-transform: uppercase;
+	padding: 0rem;
+	margin-bottom: 20px;
+	
+}
+
+.sobre-texto p {
+	color: black;
+	line-height: 1.5;
+	padding: 0rem 0;
+	font-size: 1.1rem;
+
+}
+
+.caixa-principal button:hover {
+	letter-spacing: 0.1rem;
+}
+
+#info {
+	display: none;
+^}
+
+#info1 {
+	display: none;
+	
+^}
+
+.button {
+	background-color: 9370DB;
+	color: black;
+	cursor: pointer;
+	margin-top: 3rem;
+	font-size: 1.0rem;
+	padding: 0.50rem 0.50rem;
+	text-transform: uppercase;
+	transition: 0.3s linear;
+	border-radius: 5px
+}
+
+.caixa-sobre .sobre-container {
+	display: flex;
+	align-items: center;		
+}
+
+
+.caixa-sobre .sobre-container .sobre-imagem  img {
+	width: 50vh;
+	margin-right: 20px;
+	display: inline-block;
+}
+
+.modal {
+	display: flex;
+	flex-direction: column;
+	background-color: transparent;
+	gap: 20px;
+	z-index: 4;
+	position: fixed;
+	top: 30%;
+	left: -50%;
+	transform: translate(-10%, -10%);
+	font-size: 2.8rem;
+	text-transform: uppercase;
+	transition: left 1s linear;
+	
+}
+
+.modal span{
+	color: purple;
+	background-color: #9370DB;
+	border-radius: 10px;
+	text-align: center; 
+}
+
+.modal h3{
+	color:  black;
+	background-color: #9370DB;
+	border-radius: 10px;
+	text-align: center; 
+}
+
+.mascara {
+	visibility: hidden; 
+	z-index: 3;
+	position: fixed;
+	inset: 0;
+	width: 100vw;
+	height: 100vh;
+	background: black;
+  webkit-mask-image: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
+  mask-image: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
+}
+
+
+
+	
+
+.avaliacoes {
+	text-align: center;
+	color: black;
+	text-transform: uppercase;
+	padding-bottom: 1,0rem;
+	font-size: 2rem;
+}
+
+.avaliacoes h2 span {
+	color: purple;
+	text-transform: uppercase;
+	margin-bottom: -100;
+	padding: -50;
+
+}
+
+.card .user{
+	width: 65px;
+	margin: -2;
+	margin-top: -130;
+
+}
+
+.star {
+	width: 20px;
+
+}
+
+.card h3 {
+	font-size: 1rem;
+	color: black;
+	line-height: 1.5;
+	text-transform: uppercase;
+	padding: 0rem;
+	margin-bottom: 1px;
+	margin-top: -50;
+	color: purple;
+	
+^}
+
+.card p {
+	color: black;
+	line-height: 1.5;
+	font-size: 1.1rem;
+	padding-bottom: 8rem;
+	grid-gap: 40px;
+	margin-bottom: 2rem;
+}
+
+
+.deixe {
+	margin-top: -300;
+}
+
+.foto {
+	display: inline;
+	margin-right: 50px; 
+^}
+
+.curriculo{
+	display: inline;
+}
+
+.emprego {
+	display: flex;
+	padding: -5rem;
+	margin-top: -90;
+
+}
+
+.page {
+	display: flex;
+	flex-direction: conlumn;
+	text-align: center;
+}
+
+
+.box {
+	position: absolute;
+	top: 50%;
+	left: 85%;
+	transform: translate(-50%, -50%);
+	height: 40px;
+	border-radius: 40px;
+	padding:10px;
+}
+
+.botau {
+	cursor: pointer;
+	float: right;
+	width: 40%;
+	height: 40%;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 0.8s;
+^}
+
+.text {
+	border: none;
+	outline: none;
+	float: left;
+	padding: 0;
+	color: black;
+	font-size: 20px;
+	transition: .4s;
+	width: 0px;
+}
+
+.box:hover>text{
+	width: 20px;
+	padding: 0 6px:
+}
+
+.box:hover>botau{
+	transform: rotate;
+}
+
