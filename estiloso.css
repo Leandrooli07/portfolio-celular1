@@ -418,7 +418,7 @@ body {
 }
 
 @media (max-widht:600px) {
-	.header {
+	.modal {
 	flex-direction: column;
 	padding: 10px;
 
