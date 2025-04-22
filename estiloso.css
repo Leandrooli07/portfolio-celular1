@@ -14,10 +14,9 @@ width: 100;
 }
 
 body {
-margin: 0;
+margin: 1;
 padding-top: 60px;
 background-color: lightblue;
-overflow-x: hidden; 
 }
 
 
