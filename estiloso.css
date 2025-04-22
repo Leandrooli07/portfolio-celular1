@@ -10,13 +10,22 @@ section {
 padding: 7rem 1rem;
 margin: 0 auto;
 max-width: 1200px;
+width: 100;
 }
 
 body {
-margin: 1;
+margin: 0;
 padding-top: 60px;
 background-color: lightblue;
+overflow-x: hidden; 
 }
+
+@media (max-width: 768px) {
+.header section {
+flex-direction: column;
+gap: 20px;
+}
+
 
 .header {
 position: fixed;
