@@ -20,11 +20,6 @@ background-color: lightblue;
 overflow-x: hidden; 
 }
 
-@media (max-width: 768px) {
-.header section {
-flex-direction: column;
-gap: 20px;
-}
 
 
 .header {
