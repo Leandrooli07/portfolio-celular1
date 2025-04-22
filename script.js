@@ -1,15 +1,16 @@
-const modal = document.querySelector(".modal")
-const mascara = document.querySelector(".mascara")
 
+const modal = document.querySelector(".modal");
+const mascara = document.querySelector(".mascara");
 
-function mostrarModal(){
-	modal.style.left = '40%'
-	mascara.style.visibility = 'visible'
+function mostrarModal() {
+modal.style.left = '50%'; 
+modal.style.transform = 'translate(-50%, -50%)'; 
+mascara.style.visibility = 'visible';
 }
 
-function esconderModal(){
-	modal.style.left = '-40%'
-	mascara.style.visibility = 'hidden'
+function esconderModal() {
+modal.style.left = '-150%'; 
+mascara.style.visibility = 'hidden';
 }
 
 
