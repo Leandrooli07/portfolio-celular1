@@ -297,16 +297,14 @@ height: auto;
 }
 
 @media (max-width: 768px) {
-.modal iframe {
-width: 90%; 
-height: 300px; 
+.modal iframe { 
+height: 400px; 
 }
 }
 
 @media (max-width: 480px) {
-.modal iframe {
-width: 95%; 
-height: 250px; 
+.modal iframe { 
+height: 350px; 
 }
 }
 
