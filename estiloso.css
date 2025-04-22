@@ -296,11 +296,20 @@ width: 100%;
 height: auto; 
 }
 
-@media (max-width: 768px) {
+@media (min-width: 769px) {
 .modal iframe { 
+height: 450px;
+width: 600px;
+}
+}
+
+
+@media (max-width: 768px) {
+.modal iframe {
 height: 400px; 
 }
 }
+
 
 @media (max-width: 480px) {
 .modal iframe { 
