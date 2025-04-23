@@ -329,7 +329,7 @@ text-transform: uppercase;
 padding-bottom: 1rem;
 font-size: 2rem;
 display: inline-block;
-margin-top: 20px;
+
 
 }
 
@@ -381,7 +381,7 @@ margin-right: 50px;
 }
 
 .curriculo {
-display: inline-block;
+display: inline;
 }
 
 .emprego {
