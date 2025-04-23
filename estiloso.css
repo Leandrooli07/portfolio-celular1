@@ -380,7 +380,7 @@ margin-right: 50px;
 }
 
 .curriculo {
-display: flex;
+display: inline-block;
 }
 
 .emprego {
