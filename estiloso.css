@@ -328,7 +328,6 @@ color: black;
 text-transform: uppercase;
 padding-bottom: 1rem;
 font-size: 2rem;
-display: inline;
 
 
 }
@@ -338,7 +337,6 @@ color: purple;
 text-transform: uppercase;
 margin-bottom: -100;
 padding: -50;
-text-align: center;
 }
 
 .card .user {
