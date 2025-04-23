@@ -380,7 +380,7 @@ margin-top: -300;
 display: inline;
 margin-right: 50px;
 width: 100%;
-margin: 0;
+margin: 5px 0;
 }
 
 .curriculo {
@@ -480,10 +480,4 @@ font-size: 1.8rem;
 .img-celular {
 width: 100%;
 margin: 5px 0;
-}
-
-.caixa-sobre .sobre-container .sobre-imagem img {
-width: 100%;
-margin: 0;
-}
 }
