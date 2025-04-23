@@ -29,7 +29,7 @@ z-index: 3;
 background-color: #9370DB;
 border-bottom: 0.2rem solid rgba(255, 255, 255, 0.3);
 width: 100vw;
-max-width: 10%;
+max-width: 100%;
 overflow-x: hidden;
 }
 
