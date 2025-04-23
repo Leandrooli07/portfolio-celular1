@@ -379,6 +379,8 @@ margin-top: -300;
 .foto {
 display: inline;
 margin-right: 50px;
+width: 100%;
+margin: 0;
 }
 
 .curriculo {
