@@ -27,7 +27,7 @@ left: 0;
 z-index: 3;
 background-color: #9370DB;
 border-bottom: 0.2rem solid rgba(255, 255, 255, 0.3);
-width: 100vw;-
+width: 100vw;
 overflow-x: hidden;
 }
 
@@ -37,7 +37,6 @@ align-items: center;
 justify-content: flex-start;
 gap: 50px;
 padding: 1rem 1rem;
-position: relative;
 background-color: #9370DB;
 }
 
