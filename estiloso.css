@@ -448,8 +448,9 @@ gap: 20px;
 }
 
 .img-celular {
-width: 100%;
+max-width: 100%;
 margin: 10px 0;
+height: auto;
 }
 
 .caixa-sobre .sobre-container {
@@ -457,8 +458,9 @@ flex-direction: column;
 }
 
 .caixa-sobre .sobre-container .sobre-imagem img {
-width: 100%;
+max-width: 100%;
 margin: 0;
+height: auto;
 }
 }
 
