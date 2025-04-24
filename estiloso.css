@@ -486,23 +486,31 @@ margin: 5px 0;
 
 
 @media (max-width: 600px) {
-    .caixa-celular {
-      width: 100%;
-      padding: 10px;
+.caixa-celular {
+width: 100%;
+padding: 10px;
     }
 }
 
 @media (max-width: 600px) {
-    .Sobre-celular {
-       width: 100%;
-      padding: 10px;
+.Sobre-celular {
+width: 100%;
+padding: 10px;
     }
 }
 
 @media (max-width: 600px) {
-    .container {
-       width: 100%;
-      padding: 10px;
+.container {
+width: 100%;
+padding: 10px;
+    }
+}
+
+
+@media (max-width: 600px) {
+.sombre-samsung {
+width: 100%;
+padding: 10px;
     }
 }
 
