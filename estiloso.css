@@ -497,3 +497,10 @@ margin: 5px 0;
     }
 }
 
+@media (max-width: 600px) {
+    .container {
+       width: 100%;
+      padding: 10px;
+    }
+}
+
