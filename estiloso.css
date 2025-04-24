@@ -485,15 +485,15 @@ margin: 5px 0;
 
 @media (max-width: 600px) {
     .caixa-celular {
-        width: 100%;
-        padding: 10px;
+      width: 100%;
+      padding: 10px;
     }
 }
 
 @media (max-width: 600px) {
     .Sobre-celular {
-        width: 100%;
-        padding: 10px;
+       width: 100%;
+      padding: 10px;
     }
 }
 
