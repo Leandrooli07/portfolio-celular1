@@ -100,7 +100,7 @@ justify-content: space-around;
 }
 
 .img-celular img {
-width: 140px;
+max-width: 140px;
 height: auto;
 flex-direction: row;
 margin-top: 20px;
