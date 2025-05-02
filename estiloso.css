@@ -353,6 +353,13 @@ margin-bottom: 50px;
 
 }
 
+
+.avaliacoes h2 {
+     text-align: center
+
+}
+
+
 .avaliacoes h2 span {
 color: purple;
 text-transform: uppercase;
@@ -400,14 +407,40 @@ margin-right: 50px;
 
 }
 
+
+.foto, .curriculo {
+  flex: 1;
+  min-width: 300px;
+  margin: 10px;
+}
+
+
+.foto img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+@media (max-width: 768px) {
+   .emprego {
+   flex-direction: column;
+   align-items:iculo {
+   width: 100%;
+            }
+        }
+
+
+
+
 .curriculo {
 display: inline;
 }
 
 .emprego {
 display: flex;
-padding: -5rem;
-margin-top: -90;
+flex-wrap: wrap;
+justify-content: center;
+
 }
 
 .page {
