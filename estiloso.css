@@ -408,10 +408,11 @@ margin-right: 50px;
 }
 
 
-.foto, .curriculo {
+.foto .curriculo {
   flex: 1;
   min-width: 300px;
   margin: 10px;
+  box-sizing: border-box
 }
 
 
@@ -421,14 +422,22 @@ margin-right: 50px;
 }
 
 
-@media (max-width: 768px) {
-   .emprego {
-   flex-direction: column;
-   align-items:iculo {
-   width: 100%;
+.curriculo form {
+ width: 90%;
+margin: auto;
             }
         }
 
+
+
+@media (max-width: 768px) {
+   .emprego {
+   flex-direction: column;
+   align-items: center {
+  
+ }
+   }       
+}
 
 
 
@@ -440,6 +449,7 @@ display: inline;
 display: flex;
 flex-wrap: wrap;
 justify-content: center;
+padding: 10px;
 
 }
 
