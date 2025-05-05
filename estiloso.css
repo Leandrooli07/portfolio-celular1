@@ -546,13 +546,6 @@ word-wrap: break-word;
 }
 }
 
-@media (max-width: 600px) {
-.caixa-celular h2 span{
-font-size: 1.5rem;
-word-wrap: break-word;
-}
-}
-
 
 @media (max-width: 600px) {
 .Sobre-celular {
