@@ -1,19 +1,16 @@
-
 const modal = document.querySelector(".modal");
 const mascara = document.querySelector(".mascara");
 
-function toggleModal() {
-    if (modal.style.left === '50%') {
-        modal.style.left = '-150%';
-        mascara.style.visibility = 'hidden';
-    } else {
-        modal.style.left = '50%';
-        modal.style.transform = 'translate(-50%, -50%)';
-        mascara.style.visibility = 'visible';
-    }
+function mostrarModal() {
+modal.style.left = '50%'; 
+modal.style.transform = 'translate(-50%, -50%)'; 
+mascara.style.visibility = 'visible';
 }
 
-document.querySelector(".seuBotao").addEventListener('click', toggleModal);
+function esconderModal() {
+modal.style.left = '-150%'; 
+mascara.style.visibility = 'hidden';
+}
 
 
 document.getElementById("toggleButton").addEventListener("click", 
