@@ -418,8 +418,11 @@ margin-right: 50px;
 
 
 .foto img {
-  max-width: 100%;
-  height: auto;
+max-width: 140px;
+height: auto;
+flex-direction: row;
+margin-top: 20px;
+margin-bottom: 15px;
 }
 
 
