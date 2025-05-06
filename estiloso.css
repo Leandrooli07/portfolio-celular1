@@ -369,6 +369,28 @@ margin-bottom: -100;
 padding: -50;
 }
 
+.ava {
+text-align: center;
+color: black;
+text-transform: uppercase;
+padding-bottom: 1rem;
+font-size: 2rem;
+margin-bottom: -1rem;
+
+}
+
+.ava h2 {
+  text-align: center;
+
+}
+
+.ava h2 span {
+color: purple;
+text-transform: uppercase;
+margin-bottom: -100;
+padding: -50;
+}
+
 .card .user {
 width: 65px;
 margin: -2;
