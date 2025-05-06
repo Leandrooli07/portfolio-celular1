@@ -596,11 +596,3 @@ padding: 10px;
     }
 }
 
-
-main {
-  background: url("logo.png") no-repeat
-  center center;
-  background-size: cover;
-  height: 92vh;
-}
-  
