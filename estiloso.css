@@ -601,8 +601,8 @@ padding: 10px;
 
 .search-container {
             position: fixed;
-            top: 10px;
-            right: 10px;
+            top: 30px;
+            right: 26px;
             width: calc(100% - 20px);
             max-width: 300px;
         }
